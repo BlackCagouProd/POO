@@ -6,7 +6,7 @@ class database {
   private $db_host;
   private $pdo;
   
-  public function __construct($db_name='sakila', $db_user='root', $db_pass = 'smokeweedz.913', $db_host = 'localhost'){
+  public function __construct($db_name='sakila', $db_user='root', $db_pass =[mysqlpassword], $db_host = 'localhost'){
 
     $this->db_name = $db_name;
     $this->db_user = $db_user;
